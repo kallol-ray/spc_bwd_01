@@ -1,0 +1,41 @@
+/*External Style Sheets */
+body {
+	height: 500px;
+	/*background-color: #91918b57;
+	background-image: url("../image/small_sunflower.JPG");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 100% 100%;
+	background: gray url("../image/small_sunflower.JPG") no-repeat right bottom;*/
+}
+#head1 {
+	background-color: powderblue;
+	/*color: red;*/
+}
+
+#head2 {
+	background-color: green;
+	color: #fff;
+}
+.five {
+	font-size: 25px;
+}
+
+.hill {
+	border: 1px solid green;
+	border-radius: 10px 50px 20px;
+}
+.circle {
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.circle2 {
+	background-color: red;
+	height: 50px;
+	width: 100px;
+	border-radius: 0px 0px 100px 100px;
+	display: inline-block;
+}
