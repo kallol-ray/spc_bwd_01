@@ -1,0 +1,73 @@
+/*External Style Sheets */
+body {
+	height: 500px;
+	/*background-color: #91918b57;
+	background-image: url("../image/small_sunflower.JPG");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 100% 100%;
+	background: gray url("../image/small_sunflower.JPG") no-repeat right bottom;*/
+}
+.abc {
+	font-size: 35px;
+}
+.abc:link {
+	color:red;
+}
+.abc:visited {
+	color: green;
+}
+.abc:hover {
+	color: hotpink;
+}
+.abc:active {
+	color: blue;
+}
+
+
+
+.indent {
+	text-align: justify;
+	text-indent: 50px;
+	line-height: 25px;
+	word-spacing: 10px;
+	text-decoration: line-through;
+}
+#head1 {
+	/*background-color: gray;*/
+	margin: 20px;
+	color: red;
+	padding: 15px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 4px 2px 8px #12385B;
+}
+
+#head2 {
+	background-color: green;
+	color: #fff;
+}
+.five {
+	font-size: 25px;
+}
+
+.hill {
+	border: 1px solid green;
+	border-radius: 10px 50px 20px;
+}
+.circle {
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.circle2 {
+	background-color: red;
+	height: 50px;
+	width: 100px;
+	border-radius: 0px 0px 100px 100px;
+	display: inline-block;
+}
