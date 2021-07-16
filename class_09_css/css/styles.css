@@ -1,0 +1,36 @@
+/*Styles Sheet*/
+.sumit {
+	text-align: center;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 600;
+	font-variant: normal;
+}
+.link {
+	text-align: center;
+	margin-top: 50px;
+}
+/*.channel {
+	border: 5px solid #000;
+	font-size: 20px;
+	padding: 15px;
+	background-color: gray;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 15px;
+}*/
+.channel {
+	border: 2px solid green;
+	font-size: 20px;
+	padding: 15px;
+	background-color: #FFF;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 15px;
+}
+.channel:hover {
+	background-color: green;
+	color: #FFF;
+	box-shadow: 3px 3px 11px #000;
+}
