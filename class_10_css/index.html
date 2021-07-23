@@ -3,13 +3,163 @@
 <head>
 	<title>Class - 09 CSS</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 <body>
-		<p class="sumit">We are trying to learn about font. We are trying to learn about font. We are trying to learn about font. We are trying to learn about font.</p>
-
+		<!-- <p class="sumit">We are trying to learn about font. We are trying to learn about font. We are trying to learn about font. We are trying to learn about font.</p>
 		<p class="link">
 			<a class="channel" href="https://www.youtube.com/" target="_blank">Youtube Channel</a>
 		</p>
+		<br> -->
+		<h2>Example of unordered lists:</h2>
+		<p>List of some drinks</p>
 		
+		<ul class="a">
+			<li>Coffee</li>
+			<li>Tea</li>
+			<li>Coca Cola</li>
+			<li>Milk</li>
+			<li>Water</li>
+		</ul>
+		
+		<hr>
+		<h2>Add a border to a table</h2>
+		<!-- <table class="customer">
+			<caption>Table 1.1 Customer</caption>
+			<tr>
+				<th>Name</th>
+				<th>Address</th>
+				<th>Phone</th>
+			</tr>
+			<tr>
+				<td>Simanto Das</td>
+				<td>Dhaka</td>
+				<td>01720-000000</td>
+			</tr>
+			<tr>
+				<td>Riday Saha</td>
+				<td>Barisal</td>
+				<td>01813-000000</td>
+			</tr>
+			<tr>
+				<td>Soma Sarker</td>
+				<td>Khulna</td>
+				<td>01925-000000</td>
+			</tr>
+			<tr>
+				<td>Soma Sarker</td>
+				<td>Khulna</td>
+				<td>01925-000000</td>
+			</tr>
+			<tr>
+				<td>Soma Sarker</td>
+				<td>Khulna</td>
+				<td>01925-000000</td>
+			</tr>
+			<tr>
+				<td>Soma Sarker</td>
+				<td>Khulna</td>
+				<td>01925-000000</td>
+			</tr>
+			<tr>
+				<td>Soma Sarker</td>
+				<td>Khulna</td>
+				<td>01925-000000</td>
+			</tr>			
+		</table> -->
+		<br><br>
+
+		<!-- <div style="overflow-x: auto;">		
+			<table>
+		    <tr>
+		      <th>First Name</th>
+		      <th>Last Name</th>
+		      <th>Points</th>
+		      <th>Points</th>
+		      <th>Points</th>
+		      <th>Points</th>
+		      <th>Points</th>
+		      <th>Points</th>
+		      <th>Points</th>
+		      <th>Points</th>
+		      <th>Points</th>
+		      <th>Points</th>
+		    </tr>
+		    <tr>
+		      <td>Jill</td>
+		      <td>Smith</td>
+		      <td>50</td>
+		      <td>50</td>
+		      <td>50</td>
+		      <td>50</td>
+		      <td>50</td>
+		      <td>50</td>
+		      <td>50</td>
+		      <td>50</td>
+		      <td>50</td>
+		      <td>50</td>
+		    </tr>
+		    <tr>
+		      <td>Eve</td>
+		      <td>Jackson</td>
+		      <td>94</td>
+		      <td>94</td>
+		      <td>94</td>
+		      <td>94</td>
+		      <td>94</td>
+		      <td>94</td>
+		      <td>94</td>
+		      <td>94</td>
+		      <td>94</td>
+		      <td>94</td>
+		    </tr>
+		    <tr>
+		      <td>Adam</td>
+		      <td>Johnson</td>
+		      <td>67</td>
+		      <td>67</td>
+		      <td>67</td>
+		      <td>67</td>
+		      <td>67</td>
+		      <td>67</td>
+		      <td>67</td>
+		      <td>67</td>
+		      <td>67</td>
+		      <td>67</td>
+		    </tr>
+	  	</table>  		
+		</div> -->
+
+		<img src="img/rose.jpg" class="rose">
+		<img src="img/sunflower.jpg" class="sunflower">
+		<br>
+
+		<div id="checkOver">
+			This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+		</div>
+		<br>
+
+		<p class="flip" onclick="showHideFunction()">Click to show pannel</p>
+
+		<div id="pannel">
+			<p>This panel contains a &lt;div&gt; element, which is hidden by default (<code class="w3-codespan w3-light-grey" style="color:crimson!important">display: none</code>).</p>
+		  <p>It is styled with CSS, and we use JavaScript to show it (change it to (<code class="w3-codespan w3-light-grey" style="color:crimson!important">display: block</code>).</p>
+		</div>
+
+
+		<br><br><br><br><br><br><br>
+
+
+	<script>
+		function showHideFunction() {
+			var element = document.getElementById("pannel");
+
+			if(element.style.display == 'none') {
+				element.style.display = 'block';
+			} else {
+				element.style.display = 'none';
+			}
+		}
+	</script>
 </body>
 </html>
