@@ -114,6 +114,13 @@ ul.menu li a:hover {
 	color: #FFF;
 	transition: all 1s;
 }
+.gallery_img {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 5px solid #a1a1a1;
+	border-radius: 4px;
+}
 
 
 
